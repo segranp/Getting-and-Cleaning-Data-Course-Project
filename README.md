@@ -24,7 +24,8 @@ You should create one R script called run_analysis.R that does the following.
 
 In order to execute the analysis, follow these steps:
 
-1. Ensure that packages data.table, plyr and reshape2 are installed
+1. Create project2 folder in your current working directory - "./project2"
+2. Ensure that packages data.table, plyr and reshape2 are installed
 2. Unzip the file getdata-projectfiles-UCI HAR Dataset.zip in your working directory
 3. run_analysis.R contains all the code to perform the analyses described in the 5 steps. They can be launched in RStudio by just importing the file.
 4. The output named Tidy.txt, is uploaded in the course project's form.
