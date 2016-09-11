@@ -67,5 +67,4 @@ combinedData.mean <- dcast(combinedData.melted, subject + activity ~ variable, m
 write.table(combinedData.mean, "tidy.txt", row.names=FALSE, quote=FALSE, sep="\t")
 
 dtTidy=read.csv("Tidy.txt",sep="\t",header=TRUE )
-str(dtTidy)
-head(dtTidy,2)
+
